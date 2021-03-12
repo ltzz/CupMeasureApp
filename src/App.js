@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Cup from './components/Cup';
+import MeasureApp from './components/MeasureApp';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="App-wrapper">
+        <Cup />
+        <MeasureApp />
+      </div>
     </div>
   );
 }
